@@ -7,21 +7,69 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CDF5455326DF1D94001EB866 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF5455226DF1D94001EB866 /* AppDelegate.m */; };
+		CD444A0526E6A46F00CB8F20 /* menu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CD444A0426E6A46F00CB8F20 /* menu.jpg */; };
+		CD85A93526E1089B004190E7 /* objectif.png in Resources */ = {isa = PBXBuildFile; fileRef = CD85A92B26E1089B004190E7 /* objectif.png */; };
+		CD85A93626E1089B004190E7 /* mario_gauche.gif in Resources */ = {isa = PBXBuildFile; fileRef = CD85A92C26E1089B004190E7 /* mario_gauche.gif */; };
+		CD85A93726E1089B004190E7 /* mur.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CD85A92D26E1089B004190E7 /* mur.jpg */; };
+		CD85A93826E1089B004190E7 /* mario_droite.gif in Resources */ = {isa = PBXBuildFile; fileRef = CD85A92E26E1089B004190E7 /* mario_droite.gif */; };
+		CD85A93926E1089B004190E7 /* mario_bas.gif in Resources */ = {isa = PBXBuildFile; fileRef = CD85A92F26E1089B004190E7 /* mario_bas.gif */; };
+		CD85A93A26E1089B004190E7 /* mario_haut.gif in Resources */ = {isa = PBXBuildFile; fileRef = CD85A93026E1089B004190E7 /* mario_haut.gif */; };
+		CD85A93C26E1089B004190E7 /* caisse.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CD85A93226E1089B004190E7 /* caisse.jpg */; };
+		CD85A93D26E1089B004190E7 /* caisse.ico in Resources */ = {isa = PBXBuildFile; fileRef = CD85A93326E1089B004190E7 /* caisse.ico */; };
+		CD85A93E26E1089B004190E7 /* caisse_ok.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CD85A93426E1089B004190E7 /* caisse_ok.jpg */; };
 		CDF5455526DF1D95001EB866 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDF5455426DF1D95001EB866 /* Assets.xcassets */; };
-		CDF5455826DF1D95001EB866 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDF5455626DF1D95001EB866 /* MainMenu.xib */; };
-		CDF5455B26DF1D95001EB866 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF5455A26DF1D95001EB866 /* main.m */; };
+		CDF5456526DF1E70001EB866 /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDF5456426DF1E70001EB866 /* SDL2.framework */; };
+		CDF5456626DF1E70001EB866 /* SDL2.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CDF5456426DF1E70001EB866 /* SDL2.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CDF5456926DF1E99001EB866 /* SDL2_image.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDF5456826DF1E99001EB866 /* SDL2_image.framework */; };
+		CDF5456A26DF1E99001EB866 /* SDL2_image.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CDF5456826DF1E99001EB866 /* SDL2_image.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CDF5456C26DF1EC6001EB866 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = CDF5456B26DF1EC6001EB866 /* main.c */; };
+		CDF5458926DFBF89001EB866 /* jeu.c in Sources */ = {isa = PBXBuildFile; fileRef = CDF5458826DFBF89001EB866 /* jeu.c */; };
+		CDF5458C26DFBFE3001EB866 /* editeur.c in Sources */ = {isa = PBXBuildFile; fileRef = CDF5458B26DFBFE3001EB866 /* editeur.c */; };
+		CDF5458F26DFC010001EB866 /* fichiers.c in Sources */ = {isa = PBXBuildFile; fileRef = CDF5458E26DFC010001EB866 /* fichiers.c */; };
+		CDF5459B26E06FF3001EB866 /* niveaux.lvl in Resources */ = {isa = PBXBuildFile; fileRef = CDF5459A26E06FF3001EB866 /* niveaux.lvl */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		CDF5456726DF1E70001EB866 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				CDF5456626DF1E70001EB866 /* SDL2.framework in Embed Frameworks */,
+				CDF5456A26DF1E99001EB866 /* SDL2_image.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		CD444A0426E6A46F00CB8F20 /* menu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = menu.jpg; sourceTree = "<group>"; };
+		CD85A92B26E1089B004190E7 /* objectif.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = objectif.png; sourceTree = "<group>"; };
+		CD85A92C26E1089B004190E7 /* mario_gauche.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = mario_gauche.gif; sourceTree = "<group>"; };
+		CD85A92D26E1089B004190E7 /* mur.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mur.jpg; sourceTree = "<group>"; };
+		CD85A92E26E1089B004190E7 /* mario_droite.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = mario_droite.gif; sourceTree = "<group>"; };
+		CD85A92F26E1089B004190E7 /* mario_bas.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = mario_bas.gif; sourceTree = "<group>"; };
+		CD85A93026E1089B004190E7 /* mario_haut.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = mario_haut.gif; sourceTree = "<group>"; };
+		CD85A93226E1089B004190E7 /* caisse.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = caisse.jpg; sourceTree = "<group>"; };
+		CD85A93326E1089B004190E7 /* caisse.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = caisse.ico; sourceTree = "<group>"; };
+		CD85A93426E1089B004190E7 /* caisse_ok.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = caisse_ok.jpg; sourceTree = "<group>"; };
 		CDF5454E26DF1D94001EB866 /* Mario_Sokoban.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mario_Sokoban.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CDF5455126DF1D94001EB866 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		CDF5455226DF1D94001EB866 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		CDF5455426DF1D95001EB866 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CDF5455726DF1D95001EB866 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		CDF5455926DF1D95001EB866 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CDF5455A26DF1D95001EB866 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CDF5455C26DF1D95001EB866 /* Mario_Sokoban.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Mario_Sokoban.entitlements; sourceTree = "<group>"; };
+		CDF5456426DF1E70001EB866 /* SDL2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2.framework; path = ../../../../../Library/Frameworks/SDL2.framework; sourceTree = "<group>"; };
+		CDF5456826DF1E99001EB866 /* SDL2_image.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2_image.framework; path = ../../../../../Library/Frameworks/SDL2_image.framework; sourceTree = "<group>"; };
+		CDF5456B26DF1EC6001EB866 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		CDF5458426DFBF1A001EB866 /* constantes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = constantes.h; sourceTree = "<group>"; };
+		CDF5458726DFBF89001EB866 /* jeu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = jeu.h; sourceTree = "<group>"; };
+		CDF5458826DFBF89001EB866 /* jeu.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = jeu.c; sourceTree = "<group>"; };
+		CDF5458A26DFBFE3001EB866 /* editeur.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = editeur.h; sourceTree = "<group>"; };
+		CDF5458B26DFBFE3001EB866 /* editeur.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = editeur.c; sourceTree = "<group>"; };
+		CDF5458D26DFC010001EB866 /* fichiers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fichiers.h; sourceTree = "<group>"; };
+		CDF5458E26DFC010001EB866 /* fichiers.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fichiers.c; sourceTree = "<group>"; };
+		CDF5459A26E06FF3001EB866 /* niveaux.lvl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = niveaux.lvl; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +77,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDF5456526DF1E70001EB866 /* SDL2.framework in Frameworks */,
+				CDF5456926DF1E99001EB866 /* SDL2_image.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CD85A92826E10809004190E7 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				CD444A0426E6A46F00CB8F20 /* menu.jpg */,
+				CD85A93426E1089B004190E7 /* caisse_ok.jpg */,
+				CD85A93326E1089B004190E7 /* caisse.ico */,
+				CD85A93226E1089B004190E7 /* caisse.jpg */,
+				CD85A92F26E1089B004190E7 /* mario_bas.gif */,
+				CD85A92E26E1089B004190E7 /* mario_droite.gif */,
+				CD85A92C26E1089B004190E7 /* mario_gauche.gif */,
+				CD85A93026E1089B004190E7 /* mario_haut.gif */,
+				CD85A92D26E1089B004190E7 /* mur.jpg */,
+				CD85A92B26E1089B004190E7 /* objectif.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 		CDF5454526DF1D93001EB866 = {
 			isa = PBXGroup;
 			children = (
+				CD85A92826E10809004190E7 /* Images */,
 				CDF5455026DF1D94001EB866 /* Mario_Sokoban */,
 				CDF5454F26DF1D94001EB866 /* Products */,
+				CDF5456326DF1E70001EB866 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,15 +123,29 @@
 		CDF5455026DF1D94001EB866 /* Mario_Sokoban */ = {
 			isa = PBXGroup;
 			children = (
-				CDF5455126DF1D94001EB866 /* AppDelegate.h */,
-				CDF5455226DF1D94001EB866 /* AppDelegate.m */,
 				CDF5455426DF1D95001EB866 /* Assets.xcassets */,
-				CDF5455626DF1D95001EB866 /* MainMenu.xib */,
 				CDF5455926DF1D95001EB866 /* Info.plist */,
-				CDF5455A26DF1D95001EB866 /* main.m */,
 				CDF5455C26DF1D95001EB866 /* Mario_Sokoban.entitlements */,
+				CDF5456B26DF1EC6001EB866 /* main.c */,
+				CDF5459A26E06FF3001EB866 /* niveaux.lvl */,
+				CDF5458426DFBF1A001EB866 /* constantes.h */,
+				CDF5458726DFBF89001EB866 /* jeu.h */,
+				CDF5458826DFBF89001EB866 /* jeu.c */,
+				CDF5458A26DFBFE3001EB866 /* editeur.h */,
+				CDF5458B26DFBFE3001EB866 /* editeur.c */,
+				CDF5458D26DFC010001EB866 /* fichiers.h */,
+				CDF5458E26DFC010001EB866 /* fichiers.c */,
 			);
 			path = Mario_Sokoban;
+			sourceTree = "<group>";
+		};
+		CDF5456326DF1E70001EB866 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CDF5456826DF1E99001EB866 /* SDL2_image.framework */,
+				CDF5456426DF1E70001EB866 /* SDL2.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -75,6 +158,7 @@
 				CDF5454A26DF1D94001EB866 /* Sources */,
 				CDF5454B26DF1D94001EB866 /* Frameworks */,
 				CDF5454C26DF1D94001EB866 /* Resources */,
+				CDF5456726DF1E70001EB866 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -121,8 +205,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD85A93A26E1089B004190E7 /* mario_haut.gif in Resources */,
+				CD444A0526E6A46F00CB8F20 /* menu.jpg in Resources */,
+				CD85A93726E1089B004190E7 /* mur.jpg in Resources */,
+				CD85A93C26E1089B004190E7 /* caisse.jpg in Resources */,
+				CD85A93826E1089B004190E7 /* mario_droite.gif in Resources */,
+				CD85A93626E1089B004190E7 /* mario_gauche.gif in Resources */,
+				CDF5459B26E06FF3001EB866 /* niveaux.lvl in Resources */,
+				CD85A93526E1089B004190E7 /* objectif.png in Resources */,
+				CD85A93D26E1089B004190E7 /* caisse.ico in Resources */,
 				CDF5455526DF1D95001EB866 /* Assets.xcassets in Resources */,
-				CDF5455826DF1D95001EB866 /* MainMenu.xib in Resources */,
+				CD85A93E26E1089B004190E7 /* caisse_ok.jpg in Resources */,
+				CD85A93926E1089B004190E7 /* mario_bas.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,23 +227,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDF5455B26DF1D95001EB866 /* main.m in Sources */,
-				CDF5455326DF1D94001EB866 /* AppDelegate.m in Sources */,
+				CDF5458F26DFC010001EB866 /* fichiers.c in Sources */,
+				CDF5458926DFBF89001EB866 /* jeu.c in Sources */,
+				CDF5456C26DF1EC6001EB866 /* main.c in Sources */,
+				CDF5458C26DFBFE3001EB866 /* editeur.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		CDF5455626DF1D95001EB866 /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CDF5455726DF1D95001EB866 /* Base */,
-			);
-			name = MainMenu.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		CDF5455D26DF1D95001EB866 /* Debug */ = {
@@ -268,9 +353,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = Mario_Sokoban/Mario_Sokoban.entitlements;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				CODE_SIGN_ENTITLEMENTS = "";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
 				INFOPLIST_FILE = Mario_Sokoban/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -286,9 +376,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = Mario_Sokoban/Mario_Sokoban.entitlements;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				CODE_SIGN_ENTITLEMENTS = "";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
 				INFOPLIST_FILE = Mario_Sokoban/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
